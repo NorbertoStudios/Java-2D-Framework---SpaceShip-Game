@@ -1,0 +1,54 @@
+package norbertostudios.engine.util;////
+
+////    Created     10/28/19, 9:29 AM
+////    By:         Norberto Studios
+////    
+public class Constants
+{
+    // frame dimensions
+
+    public static final int WIDTH = 1000;
+    public static final int HEIGHT = 600;
+
+    // player properties
+    public static final int PLAYER_HEALTH = 3;
+    public static final int FIRERATE = 300;
+    public static final double DELTAANGLE = 0.1;
+    public static final double ACC = 0.2;
+    public static final double BACC = 0.1;
+    public static final double PLAYER_MAX_VEL = 7.0;
+    public static final long FLICKER_TIME = 200;
+    public static final long SPAWNING_TIME = 3000;
+
+    // LASER PROPERTIES
+
+    public static final double LASER_VEL = 15.0;
+
+    // <Meteror
+
+    public static final double METEOR_VEL = 2.0;
+
+    public static final int METEOR_SCORE = 10;
+
+    // Animation
+
+    // Explotion
+    public static final int EXPLOTION_FRAMES = 45;
+
+//-_------------------------------------------------_________-----------
+    // AI
+
+    public static final int NODE_RADIUS = 160;
+
+    // UFO
+    public static final double UFO_MASS = 60;
+    public static final double UFO_ANGLE = 0.05;
+    public static final double UFO_MAX_VEL = 3;
+
+
+    public static final int UFO_FIRE_RATE = 1000;
+
+    public static final int UFO_SCORE = 40;
+
+//-----------------------------------------------------------_________-----------
+}
