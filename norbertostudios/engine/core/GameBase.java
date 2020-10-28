@@ -15,6 +15,10 @@ public abstract class GameBase implements Runnable
     {
         initialize();
         start();
+
+
+
+        
     }
 
     public void start()
